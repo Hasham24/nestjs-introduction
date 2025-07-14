@@ -1,0 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+import { IsInt, IsOptional } from 'class-validator';
+import { Type } from 'class-transformer';
+export class GetUsersParamsDto {
+  @IsOptional()
+  @IsInt()
+  @Type(() => Number)
+  id?: number;
+}
