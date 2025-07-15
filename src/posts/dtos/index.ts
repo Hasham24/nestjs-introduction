@@ -1,1 +1,2 @@
-export * from './create-post.dtos';
+export * from './create-post.dto';
+export * from './patch-post.dto';
